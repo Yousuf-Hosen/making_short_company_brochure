@@ -35,12 +35,12 @@ The **AI Company Brochure Generator** identifies and extracts key organizational
 git clone [https://github.com/Yousuf-Hosen/making_short_company_brochure.git](https://github.com/Yousuf-Hosen/making_short_company_brochure.git)
 cd making_short_company_brochure
 ```
-2. Configure Environment Variables
+### 2. Configure Environment Variables
 Create a .env file in the root directory and add your OpenAI key:
 ```bash
 OPENAI_API_KEY=your_actual_api_key_here
 ```
-3. Install Dependencies
+### 3. Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
