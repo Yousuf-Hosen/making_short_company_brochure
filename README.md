@@ -1,37 +1,38 @@
-# making_short_company_brochure
+# AI Company Brochure Generator
 
-The AI Company Brochure Generator is designed to help business analysts and developers quickly draft comprehensive company profiles. As seen in the provided Anthropic example, the system automatically identifies and formats key business pillars:
+This project is a professional business solution that automates the creation of comprehensive company brochures. By leveraging web scraping and Large Language Models, it researches a target organization and synthesizes public data into a structured, executive-level profile.
 
-Corporate Identity: Mission statements and "About Us" narratives.
+## 🚀 Project Overview
 
-Product Ecosystem: Categorized listings of flagship products (e.g., Claude, Claude Code).
+The **AI Company Brochure Generator** identifies and extracts key organizational data to build a complete narrative. As demonstrated in the repository's example for **Anthropic**, the tool generates sections including:
 
-Market Analysis: Identification of key customer industries like Healthcare and Finance.
+* **About Us:** High-level mission and vision statements.
+* **Product Ecosystem:** Categorized breakdowns of core offerings (e.g., Claude, Claude Code).
+* **Customer Segments:** Analysis of industries served, such as Healthcare and Finance.
+* **Company Culture:** Insights into corporate values, employee benefits, and career opportunities.
 
-HR & Culture: Automated extraction of employee benefits, corporate values, and open career opportunities.
+## ✨ Key Features
 
- # Key Features
-Automated Research: Scrapes raw HTML data to find the latest company information.
+* **Automated Data Extraction:** Uses `BeautifulSoup4` to parse corporate websites for relevant content.
+* **AI-Powered Synthesis:** Integrated with the **OpenAI API** to refine raw data into a professional, human-like tone.
+* **Jupyter Integration:** Developed as an interactive notebook (`day5_solution.ipynb`) for easy testing and modular execution.
+* **Secure Configuration:** Utilizes `python-dotenv` to manage API credentials safely.
 
-Intelligent Synthesis: Uses OpenAI to transform messy web data into a cohesive, professional tone.
+## 🛠 Tech Stack
 
-Markdown Ready: Outputs results in a clean format that is ready for GitHub, Notion, or conversion to PDF.
+| Technology | Purpose |
+| :--- | :--- |
+| **Python** | Logic and data processing |
+| **OpenAI API** | Natural Language Generation |
+| **BeautifulSoup4** | Web scraping and HTML parsing |
+| **Jupyter** | Interactive development environment |
+| **Dotenv** | Environment variable management |
 
-Environment Security: Built with python-dotenv to ensure your API credentials never leak into version control.
+## ⚙️ Setup & Installation
 
-🛠 Tech Stack:
-Python: Core application logic
-Jupyter Notebook: Interactive development and execution environment
-OpenAI API: High-level content curation and text generation
-BeautifulSoup4: Targeted web scraping and data extraction
-IPython: Rich Markdown rendering of the final output
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Yousuf-Hosen/making_short_company_brochure.git](https://github.com/Yousuf-Hosen/making_short_company_brochure.git)
+cd making_short_company_brochure
 
-# ⚙️ Setup & Installation
 
-1. Clone the Repository
-   git clone https://github.com/Yousuf-Hosen/making_short_company_brochure.git
-   cd making_short_company_brochure
-2. Configure Your Environment
-   OPENAI_API_KEY=your_openai_api_key_here
-3. Install Dependencies
-   pip install -r requirements.txt
