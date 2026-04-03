@@ -19,4 +19,19 @@ Markdown Ready: Outputs results in a clean format that is ready for GitHub, Noti
 
 Environment Security: Built with python-dotenv to ensure your API credentials never leak into version control.
 
-🛠 Tech StackToolPurposePythonCore application logicJupyter NotebookInteractive development and execution environmentOpenAI APIHigh-level content curation and text generationBeautifulSoup4Targeted web scraping and data extractionIPythonRich Markdown rendering of the final output
+🛠 Tech Stack:
+Python: Core application logic
+Jupyter Notebook: Interactive development and execution environment
+OpenAI API: High-level content curation and text generation
+BeautifulSoup4: Targeted web scraping and data extraction
+IPython: Rich Markdown rendering of the final output
+
+# ⚙️ Setup & Installation
+
+1. Clone the Repository
+   git clone https://github.com/Yousuf-Hosen/making_short_company_brochure.git
+   cd making_short_company_brochure
+2. Configure Your Environment
+   OPENAI_API_KEY=your_openai_api_key_here
+3. Install Dependencies
+   pip install -r requirements.txt
