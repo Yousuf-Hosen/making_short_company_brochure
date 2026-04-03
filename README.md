@@ -36,3 +36,7 @@ git clone [https://github.com/Yousuf-Hosen/making_short_company_brochure.git](ht
 cd making_short_company_brochure
 
 
+### 2. Configure Environment Variables
+Create a .env file in the root directory and add your OpenAI key:
+
+
